@@ -13,7 +13,6 @@
                 "requiresLitres": 1
             }
         },
-        "name": "{grain} dough",
         "shapeless": true,
         "output": { "type": "item", "code": "agriextension:dough-{grain}" }
     },
@@ -31,7 +30,6 @@
                 "requiresLitres": 1
             }
         },
-        "name": "{grain} dough",
         "shapeless": true,
         "output": { "type": "item", "code": "agriextension:dough-{grain}" }
     }
