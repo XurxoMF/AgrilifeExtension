@@ -1,0 +1,65 @@
+{
+    "code": "vegetable",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["jalapeno"]
+        }
+    ],
+    "attributes": {
+        "inContainerTexture": { "base": "agriextension:block/wood/barrel/raw-{type}" },
+        "inPieProperties": {
+            "texture": "agriextension:block/food/pie/fill-{type}",
+            "partType": "Filling"
+        },
+        "nutritionPropsWhenInMeal": {
+            "satiety": 150,
+            "foodcategory": "Vegetable"
+        },
+        "onDisplayTransform": {
+            "translation": { "x": 0.2, "y": -0.47, "z": 0.3 },
+            "rotation": { "x": 90, "y": 0, "z": -44 }
+        }
+    },
+    "shape": { "base": "item/food/vegetable/{type}" },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "materialDensity": 600,
+    "nutritionProps": {
+        "satiety": 100,
+        "foodcategory": "Vegetable"
+    },
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 504 },
+            "transitionHours": { "avg": 96 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.5
+        }
+    ],
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 7, "y": 40, "z": -154 },
+        "origin": { "x": 0.67, "y": 0, "z": 0.7 },
+        "scale": 4
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 45, "y": 47, "z": -30 },
+        "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+        "scale": 1.9
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+        "rotation": { "x": 0, "y": 0, "z": -42 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.8
+    },
+    "groundTransform": {
+        "origin": { "x": 0.47, "y": 0, "z": 0.5 },
+        "scale": 4.3
+    }
+}

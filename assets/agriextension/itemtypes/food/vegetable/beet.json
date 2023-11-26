@@ -1,0 +1,61 @@
+{
+    "code": "vegetable",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["beet"]
+        }
+    ],
+    "attributes": {
+        "inContainerTexture": { "base": "agriextension:block/wood/barrel/raw-{type}" },
+        "inPieProperties": {
+            "texture": "agriextension:block/food/pie/fill-{type}",
+            "partType": "Filling"
+        },
+        "nutritionPropsWhenInMeal": {
+            "satiety": 150,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "shape": { "base": "item/food/vegetable/{type}" },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "materialDensity": 600,
+    "nutritionProps": {
+        "satiety": 100,
+        "foodcategory": "Vegetable"
+    },
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 504 },
+            "transitionHours": { "avg": 96 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.5
+        }
+    ],
+    "guiTransform": {
+        "rotation": { "x": -37, "y": 135, "z": -144 },
+        "origin": { "x": 0.5, "y": 0.32, "z": 0.5 },
+        "scale": 3.04
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 45, "y": 47, "z": -30 },
+        "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+        "scale": 1.9
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+        "rotation": { "x": 0, "y": 0, "z": -42 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.8
+    },
+    "groundTransform": {
+        "rotation": { "x": 90, "y": 0, "z": 0 },
+        "origin": { "x": 0.47, "y": 0.5, "z": 0.7 },
+        "scale": 3
+    }
+}

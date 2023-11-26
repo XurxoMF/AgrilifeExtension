@@ -1,0 +1,176 @@
+{
+    "code": "cookedvegetable",
+    "maxstacksize": 64,
+    "variantgroups": [
+        { "code": "type", "states": ["pickledcauliflower"] },
+        { "code": "state", "states": ["partbaked", "perfect", "charred"] }
+    ],
+    "shape": { "base": "item/food/vegetable/cauliflower" },
+    "texturesByType": {
+        "*-partbaked": {
+            "skin": { "base": "item/food/partbaked/{type}" }
+        },
+        "*-perfect": {
+            "skin": { "base": "item/food/perfect/{type}" }
+        },
+        "*-charred": {
+            "skin": { "base": "item/food/charred/{type}" }
+        }
+    },
+    "attributesByType": {
+        "*-partbaked": {
+            "handbook": { "groupBy": ["cookedvegetable-*"] },
+            "bakingProperties": {
+                "temp": 100,
+                "levelFrom": 0.25,
+                "levelTo": 0.5,
+                "startScaleY": 0.95,
+                "endScaleY": 1.0,
+                "resultCode": "agriextension:cookedvegetable-{type}-perfect",
+                "initialCode": "agriextension:vegetable-{type}"
+            },
+            "inFirePitProps": {
+                "transform": {
+                    "scale": 0.85,
+                    "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                    "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                    "rotation": { "x": 0, "y": 0, "z": 0 }
+                },
+                "useFirepitModel": "Spit"
+            },
+            "nutritionPropsWhenInMeal": {
+                "satiety": 310,
+                "foodcategory": "Vegetable"
+            }
+        },
+        "*-perfect": {
+            "handbook": { "groupBy": ["cookedvegetable-*"] },
+            "bakingProperties": {
+                "temp": 100,
+                "levelFrom": 0.5,
+                "levelTo": 0.75,
+                "startScaleY": 0.95,
+                "endScaleY": 1.0,
+                "resultCode": "agriextension:cookedvegetable-{type}-charred",
+                "initialCode": "agriextension:cookedvegetable-{type}-partbaked"
+            },
+            "inFirePitProps": {
+                "transform": {
+                    "scale": 0.85,
+                    "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                    "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                    "rotation": { "x": 0, "y": 0, "z": 0 }
+                },
+                "useFirepitModel": "Spit"
+            },
+            "nutritionPropsWhenInMeal": {
+                "satiety": 320,
+                "foodcategory": "Vegetable"
+            }
+        },
+        "*-charred": {
+            "handbook": { "groupBy": ["cookedvegetable-*"] },
+            "inFirePitProps": {
+                "transform": {
+                    "scale": 0.85,
+                    "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                    "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                    "rotation": { "x": 0, "y": 0, "z": 0 }
+                },
+                "useFirepitModel": "Spit"
+            },
+            "nutritionPropsWhenInMeal": {
+                "satiety": 100,
+                "foodcategory": "Vegetable"
+            }
+        }
+    },
+    "materialDensity": 600,
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "nutritionPropsByType": {
+        "*-partbaked": {
+            "satiety": 255,
+            "foodcategory": "Vegetable"
+        },
+        "*-perfect": {
+            "satiety": 270,
+            "foodcategory": "Vegetable"
+        },
+        "*-charred": {
+            "satiety": 120,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "combustibleProps": {
+        "meltingPoint": 150,
+        "meltingDuration": 20,
+        "smeltedRatio": 1,
+        "smeltingType": "bake",
+        "smeltedStack": {
+            "type": "item",
+            "code": "agriextension:cookedvegetable-{type}-charred"
+        },
+        "requiresContainer": false
+    },
+    "guiTransform": {
+        "translation": { "x": 2.5, "y": 1, "z": 0 },
+        "rotation": { "x": 137, "y": 131, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+        "scale": 2.6
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 51, "y": 90, "z": -30 },
+        "scale": 1.9
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+        "rotation": { "x": 1, "y": -1, "z": -31 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.79
+    },
+    "groundTransform": {
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 3.5
+    },
+    "transitionablePropsByType": {
+        "*-partbaked": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 450 },
+                "transitionHours": { "avg": 48 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 0.5
+            }
+        ],
+        "*-perfect": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 900 },
+                "transitionHours": { "avg": 48 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 0.5
+            }
+        ],
+        "*-charred": [
+            {
+                "type": "Perish",
+                "freshHours": { "avg": 1350 },
+                "transitionHours": { "avg": 80 },
+                "transitionedStack": {
+                    "type": "item",
+                    "code": "game:rot"
+                },
+                "transitionRatio": 0.5
+            }
+        ]
+    }
+}

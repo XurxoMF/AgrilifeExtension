@@ -1,0 +1,155 @@
+[
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/vegetable/beet.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/vegetable/cauliflower.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/vegetable/corn.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/vegetable/jalapeno.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/vegetable/potato.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledbeet.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledcauliflower.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledjalapeno.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/combustibleProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledpotato.json",
+        "value": {
+            "meltingPoint": 150,
+            "meltingDuration": 20,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+                "type": "item",
+                "code": "agriextension:cookedvegetable-{type}-charred"
+            },
+            "requiresContainer": false
+        }
+    }
+]

@@ -1,0 +1,60 @@
+{
+    "code": "vegetable",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["cauliflower"]
+        }
+    ],
+    "attributes": {
+        "inContainerTexture": { "base": "agriextension:block/wood/barrel/raw-{type}" },
+        "inPieProperties": {
+            "texture": "agriextension:block/food/pie/fill-{type}",
+            "partType": "Filling"
+        },
+        "nutritionPropsWhenInMeal": {
+            "satiety": 450,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "shape": { "base": "item/food/vegetable/{type}" },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "materialDensity": 600,
+    "nutritionProps": {
+        "satiety": 315,
+        "foodcategory": "Vegetable"
+    },
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 504 },
+            "transitionHours": { "avg": 96 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.5
+        }
+    ],
+    "guiTransform": {
+        "translation": { "x": 2.5, "y": 1, "z": 0 },
+        "rotation": { "x": 137, "y": 131, "z": 0 },
+        "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+        "scale": 2.6
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 51, "y": 90, "z": -30 },
+        "scale": 1.9
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+        "rotation": { "x": 1, "y": -1, "z": -31 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.79
+    },
+    "groundTransform": {
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 3.5
+    }
+}

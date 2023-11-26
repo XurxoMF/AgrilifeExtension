@@ -1,0 +1,82 @@
+[
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-pickledbeet",
+        "value": ["vegetable", "beet"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-pickledcauliflower",
+        "value": ["vegetable", "cauliflower"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-pickledjalapeno",
+        "value": ["vegetable", "jalapeno"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/pickledvegetable-pickledpotato",
+        "value": ["vegetable", "potato"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-beet",
+        "value": ["vegetable", "beet"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-cauliflower",
+        "value": ["vegetable", "cauliflower"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-jalapeno",
+        "value": ["vegetable", "jalapeno"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/claypot-cooked/textureMapping/vegetable-potato",
+        "value": ["vegetable", "potato"],
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*/potato",
+        "value": {
+            "base": "agriextension:block/food/pie/fill-potato"
+        },
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*/beet",
+        "value": {
+            "base": "agriextension:block/food/pie/fill-beet"
+        },
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*/cauliflower",
+        "value": {
+            "base": "agriextension:block/food/pie/fill-cauliflower"
+        },
+        "file": "game:blocktypes/clay/pot.json"
+    },
+    {
+        "op": "add",
+        "path": "/texturesByType/*/jalapeno",
+        "value": {
+            "base": "agriextension:block/food/pie/fill-jalapeno"
+        },
+        "file": "game:blocktypes/clay/pot.json"
+    }
+]

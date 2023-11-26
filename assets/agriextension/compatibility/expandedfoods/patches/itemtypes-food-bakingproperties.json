@@ -1,0 +1,128 @@
+[
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/vegetable/beet.json",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.75,
+            "levelTo": 1,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/vegetable/cauliflower.json",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.75,
+            "levelTo": 1,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/vegetable/corn.json",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.75,
+            "levelTo": 1,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/vegetable/jalapeno.json",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.75,
+            "levelTo": 1,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/vegetable/potato.json",
+        "value": {
+            "temp": 100,
+            "levelFrom": 0.25,
+            "levelTo": 0.5,
+            "startScaleY": 0.95,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledbeet.json",
+        "value": {
+            "temp": 160,
+            "levelFrom": 0.0,
+            "levelTo": 0.25,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledcauliflower.json",
+        "value": {
+            "temp": 160,
+            "levelFrom": 0.0,
+            "levelTo": 0.25,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledjalapeno.json",
+        "value": {
+            "temp": 160,
+            "levelFrom": 0.0,
+            "levelTo": 0.25,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/bakingProperties",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledpotato.json",
+        "value": {
+            "temp": 160,
+            "levelFrom": 0.0,
+            "levelTo": 0.25,
+            "startScaleY": 1.0,
+            "endScaleY": 1.0,
+            "resultCode": "agriextension:cookedvegetable-{type}-partbaked"
+        }
+    }
+]

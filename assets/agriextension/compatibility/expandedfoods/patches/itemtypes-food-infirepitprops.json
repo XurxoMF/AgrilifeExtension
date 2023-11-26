@@ -1,0 +1,137 @@
+[
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/vegetable/beet.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/vegetable/cauliflower.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/vegetable/corn.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/vegetable/jalapeno.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/vegetable/potato.json",
+        "value": {
+            "transform": {
+                "scale": 5,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledbeet.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledcauliflower.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledjalapeno.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    },
+    {
+        "op": "add",
+        "side": "server",
+        "path": "/attributes/inFirePitProps",
+        "file": "agriextension:itemtypes/food/pickledvegetable/pickledpotato.json",
+        "value": {
+            "transform": {
+                "scale": 0.85,
+                "origin": { "x": 0.5, "y": 0.0625, "z": 0.5 },
+                "translation": { "x": 0, "y": 0.125, "z": -0.1 },
+                "rotation": { "x": 0, "y": 0, "z": 0 }
+            },
+            "useFirepitModel": "Spit"
+        }
+    }
+]

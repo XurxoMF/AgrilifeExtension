@@ -1,0 +1,194 @@
+[
+    {
+        "op": "addeach",
+        "path": "/ingredients/0/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-potato",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-beet",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-jalapeno",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-cauliflower",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledpotato",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledbeet",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledjalapeno",
+                "shapeElement": "bowl/vegetable 1/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledcauliflower",
+                "shapeElement": "bowl/vegetable 1/*"
+            }
+        ],
+        "side": "server",
+        "file": "game:recipes/cooking/vegetablestew.json"
+    },
+    {
+        "op": "addeach",
+        "path": "/ingredients/1/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-potato",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-beet",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-jalapeno",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-cauliflower",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledpotato",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledbeet",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledjalapeno",
+                "shapeElement": "bowl/vegetable 2/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledcauliflower",
+                "shapeElement": "bowl/vegetable 2/*"
+            }
+        ],
+        "side": "server",
+        "file": "game:recipes/cooking/vegetablestew.json"
+    },
+    {
+        "op": "addeach",
+        "path": "/ingredients/2/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-potato",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-beet",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-jalapeno",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-cauliflower",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledpotato",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledbeet",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledjalapeno",
+                "shapeElement": "bowl/vegetable 3/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledcauliflower",
+                "shapeElement": "bowl/vegetable 3/*"
+            }
+        ],
+        "side": "server",
+        "file": "game:recipes/cooking/vegetablestew.json"
+    },
+    {
+        "op": "addeach",
+        "path": "/ingredients/3/validStacks/-",
+        "value": [
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-potato",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-beet",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-jalapeno",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:vegetable-cauliflower",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledpotato",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledbeet",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledjalapeno",
+                "shapeElement": "bowl/vegetable 4/*"
+            },
+            {
+                "type": "item",
+                "code": "agriextension:pickledvegetable-pickledcauliflower",
+                "shapeElement": "bowl/vegetable 4/*"
+            }
+        ],
+        "side": "server",
+        "file": "game:recipes/cooking/vegetablestew.json"
+    }
+]

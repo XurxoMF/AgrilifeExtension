@@ -1,0 +1,56 @@
+{
+    "code": "pickledvegetable",
+    "maxstacksize": 64,
+    "variantgroups": [{ "code": "type", "states": ["pickledpotato"] }],
+    "attributes": {
+        "nutritionPropsWhenInMeal": {
+            "satiety": 130,
+            "foodcategory": "Vegetable"
+        },
+        "inContainerTexture": { "base": "agriextension:block/food/pie/fill-{type}" },
+        "inPieProperties": {
+            "texture": "agriextension:block/food/pie/fill-{type}",
+            "partType": "Filling"
+        }
+    },
+    "shape": { "base": "item/food/vegetable/potato" },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "nutritionProps": {
+        "saturation": 80,
+        "foodcategory": "Vegetable"
+    },
+    "transitionableProps": [
+        {
+            "type": "Perish",
+            "freshHours": { "avg": 1800 },
+            "transitionHours": { "avg": 240 },
+            "transitionedStack": { "type": "item", "code": "game:rot" },
+            "transitionRatio": 0.5
+        }
+    ],
+    "materialDensity": 600,
+    "guiTransform": {
+        "rotation": { "x": -37, "y": 135, "z": -155 },
+        "origin": { "x": 0.56, "y": 0.1, "z": 0.42 },
+        "scale": 5.35
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 45, "y": 47, "z": -30 },
+        "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+        "scale": 1.9
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+        "rotation": { "x": 0, "y": 0, "z": -42 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 0.8
+    },
+    "groundTransform": {
+        "rotation": { "x": 0, "y": 0, "z": 83 },
+        "origin": { "x": 0.47, "y": 0, "z": 0.5 },
+        "scale": 4.3
+    }
+}

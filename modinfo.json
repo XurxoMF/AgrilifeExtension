@@ -1,0 +1,12 @@
+{
+    "type": "content",
+    "modid": "agriextension",
+    "name": "Agrilife Extension",
+    "authors": ["XurxoMF"],
+    "side": "universal",
+    "description": "Adds more crops and foods to the game!",
+    "version": "0.0.1",
+    "dependencies": {
+        "game": "1.18.15"
+    }
+}

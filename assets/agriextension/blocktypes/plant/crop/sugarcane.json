@@ -1,0 +1,68 @@
+{
+    "code": "crop",
+    "class": "BlockCrop",
+    "behaviors": [{ "name": "Unstable" }],
+    "variantgroups": [
+        { "code": "type", "states": ["sugarcane"] },
+        { "code": "stage", "states": ["1", "2", "3", "4", "5", "6", "7", "8"] }
+    ],
+    "creativeinventory": { "general": [""], "plants": [""] },
+    "renderpass": "OpaqueNoCull",
+    "shape": { "base": "block/plant/crop/{type}/stage{stage}" },
+    "blockmaterial": "Plant",
+    "attributes": {
+        "butterflyFeed": true,
+        "beeFeed": true,
+        "sitHeight": 0.3,
+        "tickGrowthProbability": 0.05,
+        "handbook": {
+            "include": true
+        }
+    },
+    "sideopaque": {
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "replaceable": 3000,
+    "lightAbsorption": 0,
+    "resistance": 0.5,
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    },
+    "rainPermeable": false,
+    "dropsByType": {
+        "*-8": [
+            { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 } },
+            { "type": "block", "code": "sugarcane", "quantity": { "avg": 8 } }
+        ],
+        "*": [{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 0.7 } }]
+    },
+    "cropProps": {
+        "requiredNutrient": "N",
+        "nutrientConsumption": 35,
+        "growthStages": 8,
+        "totalGrowthDays": 10,
+        "coldDamageBelow": 10,
+        "heatDamageAbove": 45
+    },
+    "collisionboxByTipe": null,
+    "selectionboxByType": {
+        "*-1": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.4375, "z2": 0.9375 },
+        "*-2": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.9375, "z2": 0.9375 },
+        "*-3": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 1.5, "z2": 0.9375 },
+        "*-4": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 2, "z2": 0.9375 },
+        "*-5": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 2.5625, "z2": 0.9375 },
+        "*-6": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 3.0625, "z2": 0.9375 },
+        "*-7": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 3.625, "z2": 0.9375 },
+        "*-8": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 6.062, "z2": 0.9375 }
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    }
+}

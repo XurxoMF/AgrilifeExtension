@@ -1,0 +1,96 @@
+{
+    "editor": {
+        "allAngles": true,
+        "entityTextureMode": false
+    },
+    "textureWidth": 16,
+    "textureHeight": 16,
+    "textureSizes": {
+        "skin": [8, 8]
+    },
+    "textures": {
+        "skin": "block/plant/crop/jalapeno/largeleavesjalapenos"
+    },
+    "elements": [
+        {
+            "name": "pepper",
+            "from": [7.4, 1.5, 7.4],
+            "to": [8.6, 2.7, 8.6],
+            "rotationOrigin": [8.0, 1.6, 8.0],
+            "faces": {
+                "north": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                },
+                "east": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                },
+                "south": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                },
+                "west": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                },
+                "up": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                },
+                "down": {
+                    "texture": "#skin",
+                    "uv": [1.25, 0.0, 2.25, 1.0],
+                    "windMode": [-1, -1, -1, -1]
+                }
+            },
+            "children": [
+                {
+                    "name": "pepper-middle",
+                    "from": [0.15, -0.9, 0.15],
+                    "to": [1.05, 0.0, 1.05],
+                    "rotationOrigin": [0.65, -0.35, 0.65],
+                    "faces": {
+                        "north": { "texture": "#skin", "uv": [1.25, 0.0, 2.0, 0.75] },
+                        "east": { "texture": "#skin", "uv": [1.25, 0.0, 2.0, 0.75] },
+                        "south": { "texture": "#skin", "uv": [1.25, 0.0, 2.0, 0.75] },
+                        "west": { "texture": "#skin", "uv": [1.25, 0.0, 2.0, 0.75] },
+                        "down": { "texture": "#skin", "uv": [1.25, 0.0, 2.0, 0.75] }
+                    }
+                },
+                {
+                    "name": "pepper-bottom",
+                    "from": [0.38, -1.5, 0.38],
+                    "to": [0.83, -0.9, 0.83],
+                    "rotationOrigin": [0.63, -1.1, 0.63],
+                    "faces": {
+                        "north": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.5] },
+                        "east": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.5] },
+                        "south": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.5] },
+                        "west": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.5] },
+                        "down": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.25] }
+                    }
+                },
+                {
+                    "name": "stem",
+                    "from": [0.55, 1.1, 0.45],
+                    "to": [0.85, 2.1, 0.75],
+                    "rotationOrigin": [0.65, 1.6, 0.55],
+                    "rotationZ": -14.0,
+                    "faces": {
+                        "north": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 1.0] },
+                        "east": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 1.0] },
+                        "south": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 1.0] },
+                        "west": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 1.0] },
+                        "up": { "texture": "#skin", "uv": [1.25, 0.0, 1.5, 0.25] }
+                    }
+                }
+            ]
+        }
+    ]
+}

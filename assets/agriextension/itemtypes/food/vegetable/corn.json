@@ -1,0 +1,55 @@
+{
+    "code": "vegetable",
+    "maxstacksize": 64,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["corn"]
+        }
+    ],
+    "attributes": {
+        "nutritionPropsWhenInMeal": {
+            "satiety": 150,
+            "foodcategory": "Vegetable"
+        }
+    },
+    "shape": { "base": "item/food/vegetable/{type}" },
+    "creativeinventory": {
+        "general": ["*"],
+        "items": ["*"]
+    },
+    "materialDensity": 600,
+    "nutritionProps": {
+        "satiety": 100,
+        "foodcategory": "Vegetable"
+    },
+    "transitionableProps": [
+        {
+            "type": "Dry",
+            "freshHours": { "avg": 0 },
+            "transitionHours": { "avg": 168 },
+            "transitionedStack": { "type": "item", "code": "grain-corn" },
+            "transitionRatio": 1
+        }
+    ],
+    "guiTransform": {
+        "rotation": { "x": -37, "y": 143, "z": 131 },
+        "origin": { "x": 0.45, "y": 0, "z": 0.53 },
+        "scale": 4.13
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 40, "y": -71, "z": -8 },
+        "origin": { "x": 0.5, "y": 0.15, "z": 0.4 },
+        "scale": 3.03
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.6, "y": -0.18, "z": -0.6 },
+        "rotation": { "x": 0, "y": 0, "z": -42 },
+        "origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+        "scale": 1.2
+    },
+    "groundTransform": {
+        "origin": { "x": 0.47, "y": 0, "z": 0.5 },
+        "scale": 5
+    }
+}
